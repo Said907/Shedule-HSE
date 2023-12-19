@@ -1,6 +1,6 @@
 import unittest
 from unittest.mock import MagicMock, patch
-from schedule import (
+from shedule import (
     get_id,
     ask_course,
     ask_group,
@@ -20,7 +20,7 @@ from schedule import (
     get_lesson_by_id,
     filter_lessons_by_id,
     show_subject_filter,
-    handle_subject_filter_lectorer,
+    handle_subject_filter_lecturer,
     show_lecturer_filter,
     handle_subject_filter_subject,
     show_date_filter,
